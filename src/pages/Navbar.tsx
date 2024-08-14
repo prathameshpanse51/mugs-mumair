@@ -17,7 +17,6 @@ import {
 import { ModeToggle } from "./ModeToggle";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-import { Meteors } from "@/components/ui/meteors";
 const MontserratBold = localFont({ src: "../../public/Montserrat-Bold.ttf" });
 const MontserratLight = localFont({
   src: "../../public/Montserrat-Medium.ttf",
