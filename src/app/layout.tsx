@@ -13,7 +13,7 @@ import { StarsBackground } from "@/components/ui/stars-background";
 //   variable: "--font-sans",
 // });
 
-const myFont = localFont({ src: "../../public/Poppins/Poppins-Medium.ttf" });
+const myFont = localFont({ src: "../../public/Poppins/Poppins-Black.ttf" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,8 +31,8 @@ export default function RootLayout({
         className={(cn("min-h-screen bg-background"), myFont.className)}
         suppressHydrationWarning={true}
       >
-        <ShootingStars />
-        <StarsBackground />
+        {/* <ShootingStars />
+        <StarsBackground /> */}
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
