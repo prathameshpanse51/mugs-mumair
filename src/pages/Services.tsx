@@ -62,16 +62,40 @@ export default function Services() {
                 className="dark:text-black w-[300px] bg-[#F8F8F8] px-4 py-10 flex flex-col gap-6 rounded-xl hover:transition hover:duration-700 hover:-translate-y-2"
               >
                 {idx == 0 && (
-                  <Image src={e.src} alt="service1" width={60} height={60} />
+                  <Image
+                    src={e.src}
+                    alt="service1"
+                    width={60}
+                    height={60}
+                    className="w-[60px] h-auto"
+                  />
                 )}
                 {idx == 1 && (
-                  <Image src={e.src} alt="service1" width={55} height={55} />
+                  <Image
+                    src={e.src}
+                    alt="service2"
+                    width={55}
+                    height={55}
+                    className="w-[60px] h-auto"
+                  />
                 )}
                 {idx == 2 && (
-                  <Image src={e.src} alt="service1" width={35} height={35} />
+                  <Image
+                    src={e.src}
+                    alt="service3"
+                    width={35}
+                    height={35}
+                    className="w-[60px] h-auto"
+                  />
                 )}
                 {idx == 3 && (
-                  <Image src={e.src} alt="service1" width={70} height={70} />
+                  <Image
+                    src={e.src}
+                    alt="service4"
+                    width={70}
+                    height={70}
+                    className="w-[60px] h-auto"
+                  />
                 )}
 
                 <h3 className={cn("text-3xl", PoppinsSemiBold.className)}>

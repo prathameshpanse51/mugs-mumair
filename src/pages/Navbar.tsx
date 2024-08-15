@@ -184,7 +184,7 @@ export default function Navbar() {
         </Link>
         <NavigationMenu className="hidden lg:flex">
           <NavigationMenuList>
-            <NavigationMenuLink asChild>
+            <NavigationMenuLink aria-describedby="link1-description" asChild>
               <Link
                 href="#"
                 className={cn(
@@ -196,7 +196,7 @@ export default function Navbar() {
                 Home
               </Link>
             </NavigationMenuLink>
-            <NavigationMenuLink asChild>
+            <NavigationMenuLink aria-describedby="link2-description" asChild>
               <Link
                 href="#"
                 className={cn(
@@ -208,7 +208,7 @@ export default function Navbar() {
                 About Me
               </Link>
             </NavigationMenuLink>
-            <NavigationMenuLink asChild>
+            <NavigationMenuLink aria-describedby="link3-description" asChild>
               <Link
                 href="#"
                 className={cn(
@@ -220,7 +220,7 @@ export default function Navbar() {
                 Services
               </Link>
             </NavigationMenuLink>
-            <NavigationMenuLink asChild>
+            <NavigationMenuLink aria-describedby="link4-description" asChild>
               <Link
                 href="#"
                 className={cn(
@@ -232,7 +232,7 @@ export default function Navbar() {
                 Projects
               </Link>
             </NavigationMenuLink>
-            <NavigationMenuLink asChild>
+            <NavigationMenuLink aria-describedby="link5-description" asChild>
               <Link
                 href="#"
                 className={cn(
@@ -244,7 +244,7 @@ export default function Navbar() {
                 Testimonials
               </Link>
             </NavigationMenuLink>
-            <NavigationMenuLink asChild>
+            <NavigationMenuLink aria-describedby="link6-description" asChild>
               <Link
                 href="#"
                 className={cn(

@@ -22,7 +22,13 @@ export default function AboutMe() {
             className="absolute w-[200px] md:w-[300px] h-[60px] md:h-[80px] top-[50px] md:top-[60px]"
             style={{ background: "#FD6F0099" }}
           ></div>
-          <Image src={aboutMe} alt="profile" width={500} height={600} />
+          <Image
+            src="https://ik.imagekit.io/qz6ubt34n4/mugsaboutme.png?updatedAt=1723689400590"
+            alt="aboutME"
+            width={500}
+            height={600}
+            priority={true}
+          />
         </div>
         <div className="flex flex-col gap-1 pt-10 md:pt-0">
           <h1

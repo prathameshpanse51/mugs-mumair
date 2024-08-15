@@ -63,7 +63,13 @@ export default function Home() {
             className="w-[200px] md:w-[300px] h-[60px] md:h-[80px] absolute top-[230px] md:top-[250px]"
             style={{ background: "#FD6F0099" }}
           ></div>
-          <Image src={profile} alt="profile" width={500} height={600} />
+          <Image
+            src="https://ik.imagekit.io/qz6ubt34n4/mugsprofile.png?updatedAt=1723640002096"
+            alt="profile"
+            width={500}
+            height={600}
+            priority={true}
+          />
           <div className="flex flex-row gap-4 items-center">
             <svg
               width="33"
