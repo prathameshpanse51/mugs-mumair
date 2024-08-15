@@ -60,7 +60,7 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-6">
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col gap-2 items-center md:items-start">
             <div className="relative w-[360px] md:w-[445px] h-[440px] md:h-[490px] rounded-xl bg-[#FFEBDB] mb-4">
               <Image
                 src={project11}
@@ -87,7 +87,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col gap-2 items-center md:items-start">
             <div className="relative w-[360px] md:w-[445px] h-[440px] md:h-[490px] rounded-xl bg-[#FFEBDB] mb-4">
               <Image
                 src={project21}
@@ -114,7 +114,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col gap-2 items-center md:items-start">
             <div className="relative w-[360px] md:w-[445px] h-[440px] md:h-[490px] rounded-xl bg-[#FFEBDB] mb-4">
               <Image
                 src={project31}
