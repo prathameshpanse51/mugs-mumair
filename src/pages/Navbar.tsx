@@ -14,9 +14,9 @@ import {
   NavigationMenuList,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
-import { ModeToggle } from "./ModeToggle";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
+import ModeToggle from "./ModeToggle";
 const MontserratBold = localFont({ src: "../../public/Montserrat-Bold.ttf" });
 const MontserratLight = localFont({
   src: "../../public/Montserrat-Medium.ttf",
