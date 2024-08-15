@@ -21,7 +21,10 @@ const PoppinsSemiBold = localFont({
 export default function Projects() {
   return (
     <>
-      <main className="flex flex-col gap-8 items-center mx-4 md:mx-36 my-28">
+      <main
+        id="projects"
+        className="flex flex-col gap-8 items-center mx-4 md:mx-36 my-28"
+      >
         <h1 className={cn("text-5xl md:text-6xl", PoppinsSemiBold.className)}>
           My Projects
         </h1>

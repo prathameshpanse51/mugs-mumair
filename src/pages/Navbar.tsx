@@ -186,9 +186,9 @@ export default function Navbar() {
           <NavigationMenuList>
             <NavigationMenuLink aria-describedby="link1-description" asChild>
               <Link
-                href="#"
+                href="#home"
                 className={cn(
-                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00] focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
+                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00]  dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
                   PoppinsMedium.className
                 )}
                 prefetch={false}
@@ -198,9 +198,9 @@ export default function Navbar() {
             </NavigationMenuLink>
             <NavigationMenuLink aria-describedby="link2-description" asChild>
               <Link
-                href="#"
+                href="#aboutme"
                 className={cn(
-                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00] focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/ hover:transition hover:duration-700 hover:-translate-y-1",
+                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00]  dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/ hover:transition hover:duration-700 hover:-translate-y-1",
                   PoppinsMedium.className
                 )}
                 prefetch={false}
@@ -210,9 +210,9 @@ export default function Navbar() {
             </NavigationMenuLink>
             <NavigationMenuLink aria-describedby="link3-description" asChild>
               <Link
-                href="#"
+                href="#services"
                 className={cn(
-                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00] focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
+                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00]  dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
                   PoppinsMedium.className
                 )}
                 prefetch={false}
@@ -222,9 +222,9 @@ export default function Navbar() {
             </NavigationMenuLink>
             <NavigationMenuLink aria-describedby="link4-description" asChild>
               <Link
-                href="#"
+                href="#projects"
                 className={cn(
-                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00] focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
+                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00]  dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
                   PoppinsMedium.className
                 )}
                 prefetch={false}
@@ -234,9 +234,9 @@ export default function Navbar() {
             </NavigationMenuLink>
             <NavigationMenuLink aria-describedby="link5-description" asChild>
               <Link
-                href="#"
+                href="#testimonials"
                 className={cn(
-                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00] focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
+                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00]  dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
                   PoppinsMedium.className
                 )}
                 prefetch={false}
@@ -246,9 +246,9 @@ export default function Navbar() {
             </NavigationMenuLink>
             <NavigationMenuLink aria-describedby="link6-description" asChild>
               <Link
-                href="#"
+                href="#contact"
                 className={cn(
-                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00] focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
+                  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-xl transition-colors hover:text-[#FD6F00]  dark:bg-gray-950 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50 hover:transition hover:duration-700 hover:-translate-y-1",
                   PoppinsMedium.className
                 )}
                 prefetch={false}

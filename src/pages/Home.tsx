@@ -20,7 +20,10 @@ const PoppinsBold = localFont({
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col-reverse md:flex-row justify-between items-center px-4 md:px-36 py-20">
+      <main
+        id="home"
+        className="flex flex-col-reverse md:flex-row justify-between items-center px-4 md:px-36 py-20"
+      >
         <div className="flex flex-col gap-1 pt-20 md:pt-0">
           <p className={cn("text-xl md:text-2xl", PoppinsSemiBold.className)}>
             Hi I am

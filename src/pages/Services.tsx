@@ -40,7 +40,10 @@ export default function Services() {
   ];
   return (
     <>
-      <main className="flex flex-col gap-8 items-center mx-4 md:mx-36 mb-20">
+      <main
+        id="services"
+        className="flex flex-col gap-8 items-center mx-4 md:mx-36 mb-20"
+      >
         <h1 className={cn("text-5xl md:text-6xl", PoppinsSemiBold.className)}>
           Services
         </h1>
@@ -67,7 +70,7 @@ export default function Services() {
                     alt="service1"
                     width={60}
                     height={60}
-                    className="w-[60px] h-auto"
+                    className="w-[55px] h-auto"
                   />
                 )}
                 {idx == 1 && (
@@ -76,7 +79,7 @@ export default function Services() {
                     alt="service2"
                     width={55}
                     height={55}
-                    className="w-[60px] h-auto"
+                    className="w-[50px] h-auto"
                   />
                 )}
                 {idx == 2 && (
@@ -85,7 +88,7 @@ export default function Services() {
                     alt="service3"
                     width={35}
                     height={35}
-                    className="w-[60px] h-auto"
+                    className="w-[30px] h-auto"
                   />
                 )}
                 {idx == 3 && (

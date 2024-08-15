@@ -15,7 +15,10 @@ const PoppinsSemiBold = localFont({
 export default function Connect() {
   return (
     <>
-      <main className="flex flex-col gap-8 items-center mx-4 md:mx-36 my-28">
+      <main
+        id="contact"
+        className="flex flex-col gap-8 items-center mx-4 md:mx-36 my-28"
+      >
         <h1
           className={cn(
             "text-5xl md:text-6xl text-center ",

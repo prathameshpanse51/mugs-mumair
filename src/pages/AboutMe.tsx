@@ -16,7 +16,10 @@ const PoppinsSemiBold = localFont({
 export default function AboutMe() {
   return (
     <>
-      <main className="relative flex flex-col md:flex-row justify-between items-center mx-4 md:mx-36 mb-20">
+      <main
+        id="aboutme"
+        className="relative flex flex-col md:flex-row justify-between items-center mx-4 md:mx-36 mb-20"
+      >
         <div className="flex flex-col items-center">
           <div
             className="absolute w-[200px] md:w-[300px] h-[60px] md:h-[80px] top-[50px] md:top-[60px]"
